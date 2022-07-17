@@ -5,9 +5,9 @@
   import Me from "./me.svelte"
 </script>
 
-<div class="h-screen flex flex-col overflow-y-hidden">
+<div class="h-screen flex flex-col">
   <Header/>
-  <div class=" flex flex-col flex-1">
+  <div class=" flex flex-col flex-1 overflow-y-auto">
     <div class="flex-1 place-content-center">
       <Me/>
     </div>
